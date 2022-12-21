@@ -88,18 +88,18 @@ sudo ninja install
 sudo apt install -y libpam0g-dev libxcb-xkb-dev
 
 # Install Ly Console Display Manager
-cd 
-cd Downloads
-git clone --recurse-submodules https://github.com/nullgemm/ly.git
-cd ly/
-make
-sudo make install
-sudo systemctl enable ly
+#cd 
+#cd Downloads
+#git clone --recurse-submodules https://github.com/nullgemm/ly.git
+#cd ly/
+#make
+#sudo make install
+#sudo systemctl enable ly
 
 # Lightdm can be used instead of Ly (more common)
 # comment out all ly console display if choosing lightdm
-# sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-# sudo systemctl enable lightdm
+ sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+ sudo systemctl enable lightdm
 
 
 # XSessions and i3.desktop
