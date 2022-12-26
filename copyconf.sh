@@ -17,6 +17,6 @@ cp -r .config/i3/ ~/.config
 cp -r .config/neofetch/ ~/.config
 cp -r .config/rofi/ ~/.config
 cp -r .config/kitty ~/.config
-cp .config/zsh/.zhrc ~/.zshrc
+cp .config/zsh/.zshrc ~/.zshrc
 cp .config/tmux/tmux.conf ~/.tmux.conf
 chmod +x ~/.config/i3/autostart.sh
